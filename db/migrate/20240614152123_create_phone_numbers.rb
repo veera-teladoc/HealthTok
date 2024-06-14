@@ -5,7 +5,7 @@ class CreatePhoneNumbers < ActiveRecord::Migration[7.1]
       t.string :phone_number
       t.string :extension
       t.string :phone_type
-      
+
       t.timestamps
     end
   end

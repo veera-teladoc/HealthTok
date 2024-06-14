@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2024_06_14_151734) do
+ActiveRecord::Schema[7.1].define(version: 2024_06_14_152123) do
   create_table "members", charset: "utf8mb4", force: :cascade do |t|
     t.string "first_nm"
     t.string "last_nm"
@@ -23,6 +23,16 @@ ActiveRecord::Schema[7.1].define(version: 2024_06_14_151734) do
     t.datetime "effective_end_dt"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "phone_numbers", charset: "utf8mb4", force: :cascade do |t|
+    t.bigint "member_id"
+    t.string "phone_number"
+    t.string "extension"
+    t.string "phone_type"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["member_id"], name: "index_phone_numbers_on_member_id"
   end
 
 end
