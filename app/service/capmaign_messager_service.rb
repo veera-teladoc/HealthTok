@@ -1,4 +1,4 @@
-class SocialCrawlerService
+class CapmaignMessagerService
   def initialize(params)
     @params = params
   end
