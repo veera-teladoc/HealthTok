@@ -1,15 +1,6 @@
 # HealthTok
-## How the app works
 
-HealthTok platform identifies healthcare related topics from our recent Consultations histories and these related topics and terms are valuable source to identify our targetted members in social media space.
-
-This application has 4 main components
-
-* Consultations Analyzer - this engine analyze our recent  Teladoc consultations for medical notes, consult request reason, doctor notes, follow up instructions, medical history etc. And it will extract common occurrences of healthcare related topics and terms.
-* Social Listening Intelligence - this engine searches for our targeted audencies and members in social media space by the healthcare topics that were exctrated by the Consultations Analyzer
-* Social Profile Builder - this service will build our targeted audience list with their demographics info based on varias healthcare topics and needs.
-* Healthcare Campaign Service - This service will generate Healthcare Campaign messages and deliver it to our targeted audiences
-
+## Innovation Details:
 
 Social media platforms have become a treasure trove of data on people's interests, behaviors, and perspectives. By analyzing the user-generated content on these platforms, we can gain valuable insights into the health needs and emerging trends within different demographic groups.
 
@@ -30,4 +21,16 @@ For instance, we can detect when a group is anxious about a health issue and pro
 Moreover, we can segment and personalize health communication based on factors like location, interests, life stage, and online experiences. This way, we can connect with people where they already share their lives and concerns and deliver more impactful and effective public health interventions.
 
 However, we must also respect privacy and ethics when using social media data for public health purposes. But the potential benefits make it a promising and responsible approach to explore and develop further.
-* ...
+
+
+## How the app works
+
+HealthTok platform identifies healthcare related topics from our recent Consultations histories and these related topics and terms are valuable source to identify our targetted members in social media space.
+
+**This application has 4 main components**
+* Consultations Analyzer - this engine analyze our recent  Teladoc consultations for medical notes, consult request reason, doctor notes, follow up instructions, medical history etc. And it will extract common occurrences of healthcare related topics and terms.
+* Social Listening Intelligence - this engine searches for our targeted audencies and members in social media space by the healthcare topics that were exctrated by the Consultations Analyzer
+* Social Profile Builder - this service will build our targeted audience list with their demographics info based on varias healthcare topics and needs.
+* Healthcare Campaign Service - This service will generate Healthcare Campaign messages and deliver it to our targeted audiences
+
+
