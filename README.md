@@ -25,12 +25,14 @@ However, we must also respect privacy and ethics when using social media data fo
 
 ## How the app works
 
-HealthTok platform identifies healthcare related topics from our recent Consultations histories and these related topics and terms are valuable source to identify our targetted members in social media space.
+Our HealthTok platform is a powerful tool that can help us reach out to potential and existing members in the social media space, by leveraging the healthcare related topics and terms that emerge from our recent Consultations histories. These topics and terms reflect the needs, interests, and preferences of our members and can help us tailor our messages and services to them.
 
-**This application has 4 main components**
-* Consultations Analyzer - this engine analyze our recent  Teladoc consultations for medical notes, consult request reason, doctor notes, follow up instructions, medical history etc. And it will extract common occurrences of healthcare related topics and terms.
-* Social Listening Intelligence - this engine searches for our targeted audencies and members in social media space by the healthcare topics that were exctrated by the Consultations Analyzer
-* Social Profile Builder - this service will build our targeted audience list with their demographics info based on varias healthcare topics and needs.
-* Healthcare Campaign Service - This service will generate Healthcare Campaign messages and deliver it to our targeted audiences
+**The HealthTok platform consists of four main components that work together:**
 
+**The Consultations Analyzer** - this engine scans the medical notes, consult request reasons, doctor notes, follow up instructions, medical history, and other relevant information from our recent Teladoc consultations. It then identifies and extracts the most common and relevant healthcare topics and terms that appear across these consultations.
 
+**The Social Listening Intelligence** - this engine uses the healthcare topics and terms extracted by the Consultations Analyzer to search for and locate our targeted audiences and members in the social media space. It also monitors the trends, sentiments, and feedback related to these topics and terms.
+
+**The Social Profile Builder** - this service creates a comprehensive list of our targeted audience profiles, with their demographic information and their specific healthcare topics and needs. This allows us to segment and target our members more effectively and efficiently.
+
+**The Healthcare Campaign Service** - this service generates and delivers customized and personalized healthcare campaign messages to our targeted audiences, based on their profiles and the healthcare topics and terms that are relevant to them. This service also tracks and measures the performance and impact of our campaigns.
