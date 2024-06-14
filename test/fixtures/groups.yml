@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  group_nm: MyString
+  registration_group_cd: MyString
+  card_nm: MyString
+  group_type_cd: MyString
+  notes: MyString
+  effective_start_dt: 2024-06-14 17:44:11
+  effective_end_dt: 2024-06-14 17:44:11
+
+two:
+  group_nm: MyString
+  registration_group_cd: MyString
+  card_nm: MyString
+  group_type_cd: MyString
+  notes: MyString
+  effective_start_dt: 2024-06-14 17:44:11
+  effective_end_dt: 2024-06-14 17:44:11

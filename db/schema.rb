@@ -10,7 +10,40 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2024_06_14_152123) do
+ActiveRecord::Schema[7.1].define(version: 2024_06_14_154411) do
+  create_table "addresses", charset: "utf8mb4", force: :cascade do |t|
+    t.bigint "member_id", null: false
+    t.string "street_name"
+    t.string "city"
+    t.string "state"
+    t.string "zip_code"
+    t.string "address_type"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["member_id"], name: "index_addresses_on_member_id"
+  end
+
+  create_table "email_addresses", charset: "utf8mb4", force: :cascade do |t|
+    t.bigint "member_id"
+    t.string "email_address"
+    t.string "email_type"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["member_id"], name: "index_email_addresses_on_member_id"
+  end
+
+  create_table "groups", charset: "utf8mb4", force: :cascade do |t|
+    t.string "group_nm"
+    t.string "registration_group_cd"
+    t.string "card_nm"
+    t.string "group_type_cd"
+    t.string "notes"
+    t.datetime "effective_start_dt"
+    t.datetime "effective_end_dt"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "members", charset: "utf8mb4", force: :cascade do |t|
     t.string "first_nm"
     t.string "last_nm"
@@ -35,4 +68,15 @@ ActiveRecord::Schema[7.1].define(version: 2024_06_14_152123) do
     t.index ["member_id"], name: "index_phone_numbers_on_member_id"
   end
 
+  create_table "providers", charset: "utf8mb4", force: :cascade do |t|
+    t.string "provider_type_cd"
+    t.string "provider_name"
+    t.string "location"
+    t.string "description"
+    t.string "source_provider_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  add_foreign_key "addresses", "members"
 end
